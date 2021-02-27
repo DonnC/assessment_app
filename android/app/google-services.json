@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1084744587889",
+    "project_id": "beuniquegroupcliveassesment",
+    "storage_bucket": "beuniquegroupcliveassesment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084744587889:android:7a191a042c824f0c4619d0",
+        "android_client_info": {
+          "package_name": "com.donnclab.assessment_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084744587889-tpr4gun9k7q4laho0kequrveevtet32c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtKnPeaSexCVOumFVrXJZ97pmCUxVBzOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084744587889-tpr4gun9k7q4laho0kequrveevtet32c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
