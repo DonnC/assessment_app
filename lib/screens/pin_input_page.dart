@@ -70,14 +70,18 @@ class _PinCodeVerificationScreenState extends State<PinCodeVerificationScreen> {
     PhoneCodeSent codeSent =
         (String verificationId, [int forceResendingToken]) async {
       showSnackbar('Please check your phone for the verification code.');
-      _verificationId = verificationId;
+      setState(() {
+        _verificationId = verificationId;
+      });
     };
 
     // auto-retrieve callback
     PhoneCodeAutoRetrievalTimeout codeAutoRetrievalTimeout =
         (String verificationId) {
-      showSnackbar("verification code retrieved: " + verificationId);
-      _verificationId = verificationId;
+      //showSnackbar("verification code retrieved: " + verificationId);
+      setState(() {
+        _verificationId = verificationId;
+      });
     };
 
     // attempt sign-in
@@ -161,14 +165,16 @@ class _PinCodeVerificationScreenState extends State<PinCodeVerificationScreen> {
             ? Center(
                 child: Column(
                   children: [
+                    SizedBox(height: MediaQuery.of(context).size.height * 0.3),
                     Text(
                       'Verifying phone number: ${widget.phoneNumber}...',
                       style: TextStyle(
                         color: Colors.grey,
                         fontStyle: FontStyle.italic,
+                        fontSize: 15,
                       ),
                     ),
-                    SizedBox(height: 10),
+                    SizedBox(height: 20),
                     CircularProgressIndicator(),
                   ],
                 ),

@@ -3,6 +3,37 @@
 ## firebase phone-auth test number 
 - Number: select zimbabwe and input `0778060126`
 - code send: `123456`
+  
+## screenshots
+### [demo design available here](demo/)
+<table>
+   <tr>
+      <td> screenshot 1</td>
+      <td> screenshot 2</td>
+      <td> screenshot 3</td>
+   </tr>
+   <tr>
+      <td><img src="screenshots/phone_input.png"</td>
+      <td><img src="screenshots/phone_error.png"</td>
+      <td><img src="screenshots/phone_load.png"</td>
+   </tr>
+</table>
+
+- more
+- <table>
+   <tr>
+      <td> screenshot 4</td>
+      <td> screenshot 5</td>
+      <td> screenshot 6</td>
+      <td> screenshot 7</td>
+   </tr>
+   <tr>
+      <td><img src="screenshots/home1.png"</td>
+      <td><img src="screenshots/home_load.png"</td>
+      <td><img src="screenshots/h.png"</td>
+      <td><img src="screenshots/home_2.png"</td>
+   </tr>
+</table>
 
 A new Flutter project.
 

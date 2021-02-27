@@ -40,6 +40,7 @@ class _MainHomePageState extends State<MainHomePage> {
                           height: size.height * 0.6,
                           width: double.infinity,
                           decoration: BoxDecoration(
+                            color: Colors.white,
                             gradient: LinearGradient(
                               begin: Alignment.bottomCenter,
                               end: Alignment.center,
@@ -52,16 +53,20 @@ class _MainHomePageState extends State<MainHomePage> {
                           ),
                           child: Stack(
                             children: [
-                              Align(
-                                alignment: Alignment.bottomCenter,
-                                child: Container(
-                                  height: size.height * 0.6 * 0.3,
-                                  color: Colors.white,
-                                ),
-                              ),
                               Container(
                                 height: size.height * 0.6,
                                 width: size.width,
+                                decoration: BoxDecoration(
+                                  gradient: LinearGradient(
+                                    begin: Alignment.bottomCenter,
+                                    end: Alignment.center,
+                                    colors: [
+                                      Colors.white,
+                                      Colors.white,
+                                      Colors.white38,
+                                    ],
+                                  ),
+                                ),
                                 child: CachedNetworkImage(
                                   fit: BoxFit.cover,
                                   imageUrl: presenter.image,
