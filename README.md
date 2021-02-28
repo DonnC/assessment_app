@@ -1,11 +1,14 @@
 # assessment_app
+A flutter assessment app with firebase phone auth
 
-## firebase phone-auth test number 
-- Number: select zimbabwe and input `0778060126`
-- code send: `123456`
+## firebase phone-auth
+- Enable authentication with phone `phone auth` in firebase console
+- Add a test number and test auth code in firebase (follow instructions)
+- *In app: enter test number as set in firebase
+- *In app: on verification code page, enter test code as set in firebase
   
 ## screenshots
-### [demo design available here](demo/)
+### [design available here](demo/)
 <table>
    <tr>
       <td> screenshot 1</td>
@@ -20,7 +23,7 @@
 </table>
 
 - more
-- <table>
+<table>
    <tr>
       <td> screenshot 4</td>
       <td> screenshot 5</td>
