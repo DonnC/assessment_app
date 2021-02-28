@@ -84,7 +84,7 @@ class _PinCodeVerificationScreenState extends State<PinCodeVerificationScreen> {
       });
     };
 
-    // attempt sign-in
+    // attempt verification
     try {
       await _auth.verifyPhoneNumber(
           phoneNumber: widget.phoneNumber,
@@ -115,7 +115,7 @@ class _PinCodeVerificationScreenState extends State<PinCodeVerificationScreen> {
         verificationId: _verificationId,
         smsCode: currentText,
       );
-      //0712359809
+     
 
       final User user = (await _auth.signInWithCredential(credential)).user;
 
